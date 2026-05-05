@@ -1,7 +1,7 @@
 # Portfolio QA – Carmen Pérez Robles 
 Este portafolio web muestra mis proyectos de **QA**. Incluye un **formulario de contacto** conectado a una API que permite guardar los datos del formulario en la base de datos y mostrarlos en la página de Admin.
 
-🔗 [Ver Web Portfolio QA](https://cperezrobles-commits.github.io/portafolio-qa/)
+🔗 [Ver Web Portfolio QA](https://https://github.com/CarmenPerezQAOrganitation/portafolio-qa)
 
 
 ## ⚙️ Funcionalidades principales
