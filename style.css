@@ -39,7 +39,7 @@ nav ul li {
 
 }
 /* Menú vertical en móvil */
-@media (max-width: 200px) {
+@media (max-width: 768px) {
   nav ul li {
     display: block;
     margin: 0.8rem 0;
