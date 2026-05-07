@@ -130,7 +130,7 @@ thead {
 }
 
 /* Móvil */
-@media (max-width: 768px) {
+@media (max-width: 200px) {
   th, td {
     font-size: 12px;
     padding: 4px;
