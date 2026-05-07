@@ -6,8 +6,8 @@ body {
 }
 
 header {
-  background-color: rgb(97, 1, 54);
-  color: white;
+  background-color: rgb(139, 57, 102);
+  color: rgb(252, 252, 252);
   padding: 5rem;
   text-align: center;
 }
@@ -26,7 +26,7 @@ nav {
 nav ul {
   padding: 0;
   margin: 0;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
   
 }
 
@@ -57,7 +57,7 @@ p {
 }
 
 a {
-  color: #02524e;
+  color: rgb(78, 1, 42);
   text-decoration: none;
 }
 
@@ -72,7 +72,7 @@ section {
 h2 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: #34495e;
+  color: #45024e;
 }
 
 /* FORMULARIO */
@@ -89,13 +89,13 @@ select {
   margin-bottom: 1.5rem;
   border: 1px solid #ccc;
   border-radius: 0.5rem;
-  background-color: #fdfdfd;
+  background-color: rgb(250, 236, 243);
 }
 
 button {
   width: 100%;
   padding: 1rem;
-  background-color: #02463a;
+  background-color: rgb(78, 1, 42);
   color: white;
   border: none;
   border-radius: 0.5rem;
@@ -126,7 +126,7 @@ th, td {
 }
 
 thead {
-  background-color: #f4f4f4;
+  background-color: rgb(255, 255, 255);
 }
 
 /* Móvil */
