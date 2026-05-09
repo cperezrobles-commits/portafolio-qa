@@ -1,9 +1,11 @@
 body {
   font-family: "Poppins","inter", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: black;
   margin: 0;
+
 }
+
 
 header {
   background-color: rgb(139, 57, 102);
@@ -15,6 +17,11 @@ header {
 main {
   padding: 5rem;
   text-align: left;
+}
+
+main p {
+  text-align: justify;
+  line-height: 1.6;
 }
 
 nav {
@@ -73,6 +80,7 @@ h2 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   color: #45024e;
+
 }
 
 /* FORMULARIO */
