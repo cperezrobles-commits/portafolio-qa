@@ -5,4 +5,4 @@ CREATE TABLE FormCarmenPerez (
   subject VARCHAR(100) NOT NULL,
   age INTEGER CHECK (age >= 18),
   message VARCHAR(500) NOT NULL
-);
+)
