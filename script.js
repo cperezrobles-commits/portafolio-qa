@@ -1,5 +1,6 @@
 // 1. CAMBIAR POR URL Y KEY DE TU API
-const SUPABASE_URL = 'https://iwdierxmgildaqzycppj.supabase.co/rest/v1/forms';
+const SUPABASE_URL = 'https://iwdierxmgildaqzycppj.supabase.co/rest/v1/formcarmenperez';
+>>>>>>> 8a800557eaabfbfe0da91e3b1e94dcfdb4687428
 const SUPABASE_API_KEY = 'sb_publishable_IN6V-2TZs7Ii5aEC8e85Qw_Nvc2rr3V';
 
 
