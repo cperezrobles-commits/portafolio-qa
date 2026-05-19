@@ -53,7 +53,7 @@
       cursor: pointer;
     }
   </style>
-</head>
+<style type="text/css"></style></head>
 <body>
 
 <h1>Documentación de la API REST - Supabase</h1>
@@ -82,46 +82,46 @@
 }</pre>
     <p>El <code>Key</code> lo obtienes desde Supabase en tu proyecto &gt; Settings &gt; API Keys.</p>
   
-    <h2>GET - formcarmeperez - Obtener todos </h2>
-    <p><span class="method GET">GET</span> <code>https://iwdierxmgildaqzycppj.supabase.co/rest/v1/formcarmeperez</code></p>
-    <p>Devuelve todos los registros de la tabla <code>formcarmeperez</code>.</p>
+    <h2>GET - formcarmenperez - Obtener todos </h2>
+    <p><span class="method GET">GET</span> <code>https://iwdierxmgildaqzycppj.supabase.co/rest/v1/formcarmenperez</code></p>
+    <p>Devuelve todos los registros de la tabla <code>formcarmenperez</code>.</p>
 
-    <h2>GET - formcarmeperez - Filtrar por campos</h2>
-    <p><span class="method GET">GET</span> <code>https://iwdierxmgildaqzycppj.supabase.co/rest/v1/formcarmeperez?campo=eq.valor&amp;campo2=eq.valor2</code></p>
+    <h2>GET - formcarmenperez - Filtrar por campos</h2>
+    <p><span class="method GET">GET</span> <code>https://iwdierxmgildaqzycppj.supabase.co/rest/v1/formcarmenperez?campo=eq.valor&amp;campo2=eq.valor2</code></p>
     <p>Filtra los registros donde campo sea igual a <code>&lt;valor&gt;</code>.</p>
     <p>Campos disponibles para filtrar:</p>
     <ul>
-      <li>id</li><li>name</li><li>email</li><li>subjet</li><li>age</li><li>message</li>
+      <li>id</li><li>name</li><li>email</li><li>subject</li><li>age</li><li>message</li>
     </ul>
 
-    <h2>POST - formcarmeperez - Crear nuevo</h2>
-    <p><span class="method POST">POST</span> <code>https://iwdierxmgildaqzycppj.supabase.co/rest/v1/formcarmeperez</code></p>
+    <h2>POST - formcarmenperez - Crear nuevo</h2>
+    <p><span class="method POST">POST</span> <code>https://iwdierxmgildaqzycppj.supabase.co/rest/v1/formcarmenperez</code></p>
     <p>Crea un nuevo registro. Campos disponibles:</p>
     <ul>
-      <li><code>name</code> - opcional</li><li><code>email</code> -  (obligatorio)</li><li><code>subjet</code> -  (obligatorio)</li><li><code>age</code> - opcional</li><li><code>message</code> -  (obligatorio)</li>
+      <li><code>name</code> - opcional</li><li><code>email</code> -  (obligatorio)</li><li><code>subject</code> -  (obligatorio)</li><li><code>age</code> - opcional</li><li><code>message</code> -  (obligatorio)</li>
     </ul>
     <p><strong>Body de ejemplo:</strong></p>
     <pre>{
   "name": "",
   "email": "",
-  "subjet": "",
+  "subject": "",
   "age": "",
   "message": ""
 }</pre>
 
-    <h2>PATCH - formcarmeperez - Editar </h2>
-    <p><span class="method PATCH">PATCH</span> <code>https://iwdierxmgildaqzycppj.supabase.co/rest/v1/formcarmeperez?id=eq.&lt;id&gt;</code></p>
+    <h2>PATCH - formcarmenperez - Editar </h2>
+    <p><span class="method PATCH">PATCH</span> <code>https://iwdierxmgildaqzycppj.supabase.co/rest/v1/formcarmenperez?id=eq.&lt;id&gt;</code></p>
     <p>Actualiza el registro con el ID especificado. Puedes enviar uno o varios campos en el body:</p>
     <pre>{
   "name": "<nuevo string="">",
   "email": "<nuevo string="">",
-  "subjet": "<nuevo string="">",
+  "subject": "<nuevo string="">",
   "age": "<nuevo string="">",
   "message": "<nuevo string="">"
 }</nuevo></nuevo></nuevo></nuevo></nuevo></pre>
 
-    <h2>DELETE - formcarmeperez - Eliminar </h2>
-    <p><span class="method DELETE">DELETE</span> <code>https://iwdierxmgildaqzycppj.supabase.co/rest/v1/formcarmeperez?id=eq.&lt;id&gt;</code></p>
+    <h2>DELETE - formcarmenperez - Eliminar </h2>
+    <p><span class="method DELETE">DELETE</span> <code>https://iwdierxmgildaqzycppj.supabase.co/rest/v1/formcarmenperez?id=eq.&lt;id&gt;</code></p>
     <p>Elimina el registro con el ID especificado.</p>
 
 
